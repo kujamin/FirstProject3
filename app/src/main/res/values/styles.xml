@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Fab_Bottom_app_bar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#F4385E</item>
+        <item name="colorPrimaryVariant">#F4385E</item>
+        <item name="colorOnPrimary">#000</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#F4385E</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.BlueRipple">
+        <item name="android:colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="heartRatingBar" parent="@style/Widget.AppCompat.RatingBar">
+    <item name="android:progressDrawable">@drawable/ratring_heart</item>
+    </style>
+</resources>
